@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: bold;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+img{
+    width: 210mm;
+    height: 297mm;
+}
+section {
+    display: none;
+}
+
+/* first section */
+#bankName{
+    white-space: nowrap;
+    position: absolute;
+    top: 12mm;
+    left: 58mm;
+}
+#bankCode{
+    white-space: nowrap;
+    position: absolute;
+    top: 17mm;
+    left: 58mm;
+}
+#district{
+    white-space: nowrap;
+    position: absolute;
+    top: 22mm;
+    left: 73mm;
+}
+#candidateName{
+    white-space: nowrap;
+    position: absolute;
+    top: 27.5mm;
+    left: 68mm;
+}
+#cnicNo{
+    white-space: nowrap;
+    position: absolute;
+    top: 33.5mm;
+    left: 65mm;
+}
+#year {
+    white-space: nowrap;
+    position: absolute;
+    top: 54.5mm;
+    left: 74mm;
+}
+#caseNo {
+    white-space: nowrap;
+    position: absolute;
+    top: 54.5mm;
+    left: 57mm;
+}
+#postApplied {
+    white-space: nowrap;
+    position: absolute;
+    top: 59.5mm;
+    left: 85mm;
+}
+#rs {
+    white-space: nowrap;
+    position: absolute;
+    top: 65mm;
+    left: 42mm;
+}
+#rsInWords {
+    white-space: nowrap;
+    position: absolute;
+    top: 64.5mm;
+    left: 68mm;
+}
+
+/* 2nd section */
+#bankName2{
+    white-space: nowrap;
+    position: absolute;
+    top: 82.5mm;
+    left: 58mm;
+}
+#bankCode2{
+    white-space: nowrap;
+    position: absolute;
+    top: 87.5mm;
+    left: 58mm;
+}
+#district2{
+    white-space: nowrap;
+    position: absolute;
+    top: 93mm;
+    left: 73mm;
+}
+#candidateName2{
+    white-space: nowrap;
+    position: absolute;
+    top: 98mm;
+    left: 68mm;
+}
+#cnicNo2{
+    white-space: nowrap;
+    position: absolute;
+    top: 103mm;
+    left: 70mm;
+}
+#year2{
+    white-space: nowrap;
+    position: absolute;
+    top: 123mm;
+    left: 74.5mm;
+}
+#caseNo2 {
+    white-space: nowrap;
+    position: absolute;
+    top: 123mm;
+    left: 57mm;
+}
+#postApplied2 {
+    white-space: nowrap;
+    position: absolute;
+    top: 128mm;
+    left: 85mm;
+}
+#rs2 {
+    white-space: nowrap;
+    position: absolute;
+    top: 133.5mm;
+    left: 42mm;
+}
+#rsInWords2 {
+    white-space: nowrap;
+    position: absolute;
+    top: 133mm;
+    left: 71mm;
+}
+
+/* 3rd section */
+#bankName3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 155mm;
+    left: 60mm;
+}
+#bankCode3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 160mm;
+    left: 60mm;
+}
+#district3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 165mm;
+    left: 73mm;
+}
+#candidateName3{
+    white-space: nowrap;
+    position: absolute;
+    top: 170mm;
+    left: 68mm;
+}
+#cnicNo3{
+    white-space: nowrap;
+    position: absolute;
+    top: 175.5mm;
+    left: 70mm;
+}
+#year3{
+    white-space: nowrap;
+    position: absolute;
+    top: 195.5mm;
+    left: 74.5mm;
+}
+#caseNo3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 195.5mm;
+    left: 57mm;
+}
+#postApplied3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 200.5mm;
+    left: 85mm;
+}
+#rs3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 205.5mm;
+    left: 42mm;
+}
+#rsInWords3 {
+    white-space: nowrap;
+    position: absolute;
+    top: 205.5mm;
+    left: 73mm;
+}
+
+/* 4th section */
+#bankName4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 227mm;
+    left: 59mm;
+}
+#bankCode4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 232mm;
+    left: 59mm;
+}
+#district4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 237mm;
+    left: 74mm;
+}
+#candidateName4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 242mm;
+    left: 68mm;
+}
+#cnicNo4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 247mm;
+    left: 70mm;
+}
+#year4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 267.5mm;
+    left: 73.5mm;
+}
+#caseNo4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 267.5mm;
+    left: 56.5mm;
+}
+#postApplied4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 273mm;
+    left: 88mm;
+}
+#rs4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 278mm;
+    left: 42mm;
+}
+#rsInWords4 {
+    white-space: nowrap;
+    position: absolute;
+    top: 277.5mm;
+    left: 73mm;
+}
